@@ -21,9 +21,9 @@ public class ClienteCRUD {
     public void agregarCliente(Cliente cliente) {
         try
         {
-            ObjectOutputStream oos = new ObjectOutputStream(
-                    new FileOutputStream(archivo));
-            oos.writeObject(cliente);
+            MiObjectOutputStream oos = new MiObjectOutputStream(
+                    new FileOutputStream(archivo,true));
+            oos.writeUnshared(cliente);
             oos.close();
         } catch (Exception e)
         {
