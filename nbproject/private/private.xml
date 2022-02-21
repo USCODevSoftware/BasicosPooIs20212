@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/BicicletaMontana.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Imprimible.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Bicicleta.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/BicicletaTandem.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Vehiculo.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Test.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Auto.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoVehiculos/Test1.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/MiObjectOutputStream.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/EscribirYLeer.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteCRUD.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/MiObjectOutputStream.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteForma.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/Persona.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteListaForma.java</file>
         </group>
     </open-files>
 </project-private>
