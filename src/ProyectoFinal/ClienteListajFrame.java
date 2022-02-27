@@ -166,7 +166,7 @@ public class ClienteListajFrame extends javax.swing.JFrame {
 
     private void generarListClientesBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarListClientesBtnActionPerformed
         // TODO add your handling code here:
-        //Para obtener el modelos de la tabla definida en la forma
+        //Para obtener el modelo de la tabla definida en la forma
         DefaultTableModel modelo=(DefaultTableModel) clientesTbl.getModel();
         modelo.setRowCount(0);
         ClienteCRUD cCRUD = new ClienteCRUD();
@@ -176,13 +176,17 @@ public class ClienteListajFrame extends javax.swing.JFrame {
         // - La interfaz Comparable
         // - Se sobreescribió el método compareTo para hacer ordenamiento por nombre 
         Collections.sort(listClientes);
-        Iterator<Cliente> iter = listClientes.iterator();
-        Cliente cl = null;
-        while (iter.hasNext()) {
+        //Iterator<Cliente> iter = listClientes.iterator();
+        //Cliente cl = null;
+        /*while (iter.hasNext()) {
             cl = iter.next();
             Object filaNueva[] = {cl.getId(),cl.getNombre(),cl.getEmail(),cl.getMovil(),cl.getMontoMaximo()};
             modelo.addRow(filaNueva);
             
+        }*/
+        for (Cliente cl : listClientes) {
+            Object filaNueva[] = {cl.getId(), cl.getNombre(), cl.getEmail(), cl.getMovil(), cl.getMontoMaximo()};
+            modelo.addRow(filaNueva);
         }
     }//GEN-LAST:event_generarListClientesBtnActionPerformed
 

@@ -232,10 +232,12 @@ public class ClienteBasicoJFrame extends javax.swing.JFrame {
     private void procesarClienteBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_procesarClienteBtActionPerformed
         // TODO add your handling code here:
         Cliente c =new Cliente();
+        //Controlar el evento cuando ingresan caracteres??
         c.setId(Integer.parseInt(idClienteTf.getText()));
         c.setNombre(nombreClienteTf.getText());
         c.setEmail(emailClienteTf.getText());
         c.setMovil(movilClienteTf.getText());
+        //Controlar el evento cuando ingresan caracteres??
         c.setMontoMaximo(Double.parseDouble(montoClienteTf.getText()));
         System.out.println(c.toString());
         ClienteCRUD cCrud = new ClienteCRUD();

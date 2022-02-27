@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ProyectoFinal;
 
 import java.io.Serializable;
@@ -69,11 +66,13 @@ public class Cliente implements Serializable,Comparable{
     }
 
     @Override
+    //public String toString() {
+    //    return "Cliente{" + "id=" + id + ", nombre=" + nombre + ", email=" + email + ", movil=" + movil + ", montoMaximo=" + montoMaximo + '}';
+    //}
     public String toString() {
-        return "Cliente{" + "id=" + id + ", nombre=" + nombre + ", email=" + email + ", movil=" + movil + ", montoMaximo=" + montoMaximo + '}';
+        return nombre;
     }
-    
-     @Override
+    @Override
     public int compareTo(Object o) {
         Cliente cliente = (Cliente) o;
         return this.getNombre().compareTo(cliente.getNombre());

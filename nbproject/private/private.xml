@@ -3,13 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/MiObjectOutputStream.java</file>
             <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/EscribirYLeer.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteCRUD.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/MiObjectOutputStream.java</file>
-            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteForma.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/MiObjectOutputStream.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/ClienteListajFrame.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/ClienteBasicoJFrame.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/Test.java</file>
             <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ArchivosDatos/Persona.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/Inicio.java</file>
             <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoCuentas/ClienteListaForma.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/ClienteCRUD.java</file>
+            <file>file:/D:/Cursos/POOIS20212/BasicosPooIs20212/src/ProyectoFinal/Cliente.java</file>
         </group>
     </open-files>
 </project-private>

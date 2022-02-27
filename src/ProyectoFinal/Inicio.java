@@ -25,6 +25,10 @@ public class Inicio {
         cCRUD.agregarCliente(c3);
         Cliente c4 = new Cliente(5436, "Juan","juan@outlook.com","3109875432",1550000);
         cCRUD.agregarCliente(c4);
+        Cliente c5 = new Cliente(87987, "Mario Moreno","mario@mail.com","321900000",1123000);
+        cCRUD.agregarCliente(c5);
+        Cliente c6 = new Cliente(4321, "Paola Muñoz","paom34@hotmail.com","3047655555",2345621);
+        cCRUD.agregarCliente(c6);
 
         //
         List<Object> listClientes = cCRUD.listarClientes();
